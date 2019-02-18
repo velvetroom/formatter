@@ -8,5 +8,5 @@ def tcr():
 		os.system("git add .")
 		os.system("git commit -m 'tcr passed'")
 	else:
-		os.system('echo 2')
+		os.system("git reset --hard")
 tcr()
