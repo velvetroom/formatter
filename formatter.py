@@ -6,8 +6,9 @@ def format(directory):
 		for file in f:
 			if file.endswith(".swift"):
 				print(file)
- 	                
-# format(sys.argv[1])
+
+if __name__ == '__main__':
+	format(sys.argv[1])
 
 
 def fibonacci(num):
