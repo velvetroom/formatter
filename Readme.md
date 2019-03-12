@@ -1,2 +1,1 @@
 Formatter
-hello world
